@@ -1,0 +1,23 @@
+
+
+
+1. document.getElementById 
+
+2. ONFOCUS
+
+3. ONBLUR
+
+4. ONPEN
+
+5. WINDOWS.LOCATION
+
+6. WINDOWS.OPEN
+
+7. addEventListener
+
+
+
+
+
+
+

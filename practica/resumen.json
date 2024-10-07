@@ -1,0 +1,9 @@
+{
+"titular": "Danny Jimenez",
+"no_miembro": "16029567", 
+"direccion": "Cua el Castillo #62-C",  
+"telefono":"04242814455",
+"email":"dennaly88@gmail.com", 
+"saldo": [ { "moneda": "usd", "monto": 725.09 }, { "moneda": "eu", "monto": 195.67} ],
+"miembro_desde": "1995"
+}

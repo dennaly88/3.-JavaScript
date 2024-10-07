@@ -1,0 +1,146 @@
+<!-----------------------------------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------------------------------|
+| NOMBRE    :  DANNY JOSE JIMENEZ GUTIERREZ                                                                  |
+| CEDULA    :  16.029.567                                                                                    |
+| TELEFONO  :  0424-281-44-55                                                                                |
+| CORREO    :  DENNALY88@GMAIL.COM                                                                           |
+|------------------------------------------------------------------------------------------------------------|
+|  CURSO    : JAVASCRIPT                                                                                     |
+|  DESARROLLADOR WEB                                                                                         |
+|  MIRANDA , CUA  2024                                                                                       |
+-------------------------------------------------------------------------------------------------------------|
+------------------------------------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="es">
+        <head>
+                <title>Danny | JAVASCRIPT</title>
+                <meta charset="UTF-8">
+                <meta name="Danny Jimenez" content="JAVASCRIPT">
+                <meta name="Danny Jimenez" content="Pagina hecha por Danny Jimenez">  
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">                
+                <link rel="shortcut icon" href="imagenes/js.png" type="image/x-icon">      
+        </head>
+
+|------------------------------------------------------------------------------------------------------------|<br>
+|------------------------------------------------------------------------------------------------------------|<br>
+| NOMBRE    :  DANNY JOSE JIMENEZ GUTIERREZ                                                                   <br>
+| CEDULA    :  16.029.567                                                                                     <br>
+| TELEFONO  :  0424-281-44-55                                                                                 <br>
+| CORREO    :  DENNALY88@GMAIL.COM                                                                            <br>
+|------------------------------------------------------------------------------------------------------------|<br>
+|  CURSO    : JAVASCRIPT                                                                                      <br>
+|  DESARROLLADOR WEB                                                                                          <br>
+|  MIRANDA , CUA  2024                                                                                        <br>
+|------------------------------------------------------------------------------------------------------------|<br>
+|------------------------------------------------------------------------------------------------------------|<br> 
+
+<body>
+    
+
+
+<h3>PROMESAS EN JAVASCRIPT<h3> <br> <br>
+
+
+</body>
+
+
+
+<script>
+
+let miPromesa = new Promise(function (resolve, reject) {
+
+   setTimeout(function () {
+     let error =false;
+     if (error) {
+     
+         reject('LA PROMESA HA FALALDO ');
+    }
+    else{
+
+    resolve('LO QUE QUERIAS DANNY SE CUMPLIO DE FORMA CORRECTA');
+       
+
+
+    }
+    
+   })
+
+
+    
+});
+
+
+
+
+
+
+miPromesa.then(function (resultado) {
+    document.write(resultado);
+
+    
+}).catch(function (error) {
+
+    document.write('FALLO LA PROMESA ');
+
+
+    
+})
+
+
+
+
+let promesa1 =new Promise(function(resolve, reject){
+   setTimeout(resolve, 7000, 'APARTAMENTO EN LA CANDELARIA, PALOS GRANDE , LOS RUICES ');
+   document.write('<br>');
+
+
+});
+
+
+
+let promesa2 =new Promise(function(resolve, reject){
+   setTimeout(resolve, 8000, 'TRABAJAR DESARROLLADOR WEB , Y GANAR 4000 DOLARES MENSUAL');
+   document.write('<br>');
+
+
+});
+document.write('<br>');
+
+let promesa3 =new Promise(function(resolve, reject){
+   setTimeout(resolve, 8000, 'COMPRAR UN CARRO DE AGENCIA');
+
+
+});
+
+
+Promise.all([promesa1,promesa2,promesa3]).then(function(valores){
+    document.write('<br>');
+
+    document.write(valores);
+
+
+
+
+});
+
+
+
+
+</script>
+
+      
+                
+</html>
+<!-----------------------------------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------------------------------|
+| NOMBRE    :  DANNY JOSE JIMENEZ GUTIERREZ                                                                  |
+| CEDULA    :  16.029.567                                                                                    |
+| TELEFONO  :  0424-281-44-55                                                                                |
+| CORREO    :  DENNALY88@GMAIL.COM                                                                           |
+|------------------------------------------------------------------------------------------------------------|
+|  CURSO    : JAVASCRIPT                                                                                     |
+|  DESARROLLADOR WEB                                                                                         |
+|  MIRANDA , CUA  2024                                                                                       |
+-------------------------------------------------------------------------------------------------------------|
+------------------------------------------------------------------------------------------------------------->
+

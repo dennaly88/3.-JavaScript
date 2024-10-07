@@ -1,0 +1,21 @@
+
+
+{
+
+
+  "nombre": "Danny Jimenez",
+  "edad": 40,
+  "email": "dannyjimenez@gmail.com",
+  "direccion": {
+     "estado":"Miranda",
+     "ciiudad":"CUA",
+     "calle":"Calle Principal"
+  },
+  "telefono": [
+"04242814455",
+"02392125304"
+  ]
+
+
+
+}
